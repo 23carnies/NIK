@@ -1,14 +1,33 @@
 /* Overall */
-* {
-  font-family: fantasy;
+
+html {
+  font-size: 16px;
 }
 
+* {
+  font-family: Helvetica;
+}
+
+.flexBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 30px;
+
+}
 /* Header */
 header {
   background-image: url("pictures/DSCN1270.jpg");
-  background-position: center;
+  background-position: left;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100px;
+  opacity: 0.5;
 }
 
 nav {
@@ -28,14 +47,41 @@ a, a:active, a:visited, a:hover {
 }
 
 /* Main */
-.floatr {
+/*.floatr {
   float: right;
 }
 
 .floatl {
   float: left;
+}*/
+
+.landing h1 {
+  font-size: 3rem;
+  font-weight: 700;
 }
 
+.bioPic {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+.bioText {
+  width: 30%;
+  padding: 10px;
+}
+
+.image {
+  width: 40%;
+  height: auto;
+}
+
+.text {
+  width: 35%;
+  padding: 20px;
+}
 
 /* Footer */
 .foot {

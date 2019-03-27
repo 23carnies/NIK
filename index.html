@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Not in Kansas, Quilts by Dorothy</title>
+    <link rel="stylesheet" href="resources/reset.css" type="text/css">
     <link rel="stylesheet" href="resources/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
     <!--Header-->
@@ -27,31 +29,44 @@
       <h1>Not in Kansas, Quilts by Dorothy</h1>
     </section>
 
-    <section>
-      <img src="#" alt="Pic of Dorothy" width="100px" height="100px">
-      <p>Hello and welcome to my quilt shop. I'm Dorothy and we are
-      not in Kansas anymore. I've been making quilts for my family
-      and friends for years. I'd love to make one for yours too! Quilts
-      make great show pieces for your bed, couch or even wall hangings.
-      I make them in many sizes from baby blanket to California King and
-      everything in between. </p>
+    <section class="container">
+      <div class="bioPic">
+        <img src="#" alt="Pic of Dorothy" width="100px" height="100px">
+      </div>
+      <div class="bioText"
+        <p>Hello and welcome to my quilt shop. I'm Dorothy and we are
+        not in Kansas anymore. I've been making quilts for my family
+        and friends for years. I'd love to make one for yours too! Quilts
+        make great show pieces for your bed, couch or even wall hangings.
+        I make them in many sizes from baby blanket to California King and
+        everything in between. </p>
+      </div>
     </section>
 
-    <section>
-      <img src="./resources/pictures/DSCN1270.jpg" class="floatl" width="300px" height="200px"alt="Quilt on bed">
-      <p>A quilt is a fantastic gift. One that will be passed
-      down for generations. My quilts are put together by hand
-      and quilted by machine. They are sturdy and beautiful.</br> There are
-      many designs and colors. Check out our gallery of quilts and find one
-      you like. I can adjust the colors to fit your room.
-      </p>
-
-      <img src="./resources/pictures/100_3187.jpg" class="floatr" width="300px" height="200px" alt="T-shirt quilt">
-      <p>Have a stack of t-shirts from sports or group events?
-      Have them made into a commemorative T-shirt quilt. These
-      keepsakes allow you to display your treasured shirts and
-      keep you warm at night.</p>
+  <article class="flexBox">
+      <section class="container">
+      <div class="image">
+        <img src="./resources/pictures/DSCN1270.jpg" class="floatl" width="300px" height="200px"alt="Quilt on bed">
+      </div>
+      <div class="text">
+        <p>A quilt is a fantastic gift. One that will be passed
+          down for generations. My quilts are put together by hand
+          and quilted by machine. They are sturdy and beautiful.</br> There are
+          many designs and colors. Check out our gallery of quilts and find one
+          you like. I can adjust the colors to fit your room.
+        </p>
+      </div>
+      <div class="image">
+        <img src="./resources/pictures/100_3187.jpg" class="floatr" width="300px" height="200px" alt="T-shirt quilt">
+      </div>
+      <div class="text">
+        <p>Have a stack of t-shirts from sports or group events?
+          Have them made into a commemorative T-shirt quilt. These
+          keepsakes allow you to display your treasured shirts and
+          keep you warm at night.</p>
+      </div>
     </section>
+  </article>
 
 
 
