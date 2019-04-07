@@ -1,0 +1,80 @@
+/* Header */
+/* make photo page background color {
+  background-color: #baba28;
+} */
+
+header, footer {
+  background-color: #285130;
+}
+
+/* Jumbotron */
+.main {
+  height: 570px;
+  background-image: url("../Web_Photos/WoO color.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(100%);
+  animation-name: greyToColor;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes greyToColor {
+  0% {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);}
+  20% {filter: grayscale(80%); -webkit-filter: grayscale(80%); -moz-filter: grayscale(80%);}
+  40% {filter: grayscale(60%); -webkit-filter: grayscale(60%); -moz-filter: grayscale(60%);}
+  60% {filter: grayscale(40%); -webkit-filter: grayscale(40%); -moz-filter: grayscale(40%);}
+  80% {filter: grayscale(20%); -webkit-filter: grayscale(20%); -moz-filter: grayscale(20%);}
+  100% {filter: grayscale(0%); -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%);}
+}
+
+.main h1, .main p {
+  color: #fff;
+  /*position: relative;
+  top: 200px;
+  left: 60%;*/
+}
+
+/* Photos Page */
+#quiltCarousel {
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
+}
+
+/* Types Page */
+#bio, #generalInfo, #memoryInfo {
+  margin: 0 0 2% 0;
+}
+
+/* FAQ section */
+#FAQ {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+/* Contact Page */
+form {
+  margin: 2% 0 5% 0;
+}
+
+#formText {
+  margin: 1% 0;
+}
+
+/*Footer*/
+footer.navbar-text {
+  margin: auto 0;
+}
+
+footer ul {
+  margin: 0 0 0 50%;
+}
+
+@media only screen and (max-width: 480px) {
+  footer.navbar-text {
+    display: none;
+  }
+}
