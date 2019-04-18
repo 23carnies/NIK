@@ -7,6 +7,10 @@ header, footer {
   background-color: #285130;
 }
 
+.jumbotron h1 {
+  font-family: 'IM Fell Great Primer', serif;
+}
+
 /* Jumbotron */
 .main {
   height: 570px;
