@@ -1,19 +1,57 @@
 /* Header */
-/* make photo page background color {
-  background-color: #baba28;
-} */
+
+#header {
+	background: #666;
+	padding: 3px;
+  padding: 10px 20px;
+  color: #fff;
+  position: sticky;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix.container-fluid {
+  padding-top: 300px;
+}
 
 header, footer {
   background-color: #285130;
+  /*width: 1000px;
+  margin: 0 auto;*/
 }
 
-.jumbotron h1 {
+.main h1 {
   font-family: 'IM Fell Great Primer', serif;
+}
+
+.main h1, .main p {
+  color: #fff;
+  position: relative;
+  top: 100px;
+  left: 10%;
+}
+
+.row {
+  margin: 8px 0;
 }
 
 /* Jumbotron */
 .main {
-  height: 570px;
+  background-color: #caf7c8;
+  top: 0;
+  z-index: 10;
+  height: 300px;
+  margin: 0 auto;
   background-image: url("../Web_Photos/WoO color.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -34,18 +72,15 @@ header, footer {
   100% {filter: grayscale(0%); -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%);}
 }
 
-.main h1, .main p {
-  color: #fff;
-  /*position: relative;
-  top: 200px;
-  left: 60%;*/
-}
-
 /* Photos Page */
 #quiltCarousel {
   margin: 0 auto;
   width: 70%;
   height: auto;
+}
+
+#carouselBackground {
+  background-color: #223428;
 }
 
 /* Testimonials Page */

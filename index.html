@@ -13,18 +13,28 @@
 
   </head>
   <body>
+
+    <!--Jumbotron   maybe put picture here and use class img-fluid??-->
+      <div class="container-fluid main">
+        <h1 class="display-4 font-weight-bold">Quality memory quilts and designer quilts</h1>
+        <p class="lead">Hand made by Dorothy in Atlanta, Ga.</p>
+      </div>
+
     <!--Header-->
     <header>
-      <div class="container">
-        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark" role="navigation">
+      <!--<div class="container-fluid">-->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top" data-spy="affix" data-offset-top="300" role="navigation">
+          <!--change container location to here-->
+          <div class="container">
+
           <div class="navbar-header">
             <a class="navbar-brand" href="index.html">Not In Kansas</a>
           </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseLinks">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseLinks">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="collapseLinks">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav w-100 justify-content-end">
               <li class="nav-item"><a class="nav-link" href="photos.html">Photos</a></li>
               <li class="nav-item"><a class="nav-link"  href="testimonials.html">Testimonials</a></li>
               <li class="nav-item"><a class="nav-link disabled"  href="#">Etsy</a></li>
@@ -32,20 +42,60 @@
               <li class="nav-item"><a class="nav-link"  href="contact.html">Contact</a></li>
             </ul>
           </div>
+        </div>
+
         </nav>
-      </div>
+      <!--</div>-->
     </header>
-    <!--Jumbotron-->
-    <div class="jumbotron main">
-      <div class="container">
-        <h1 class="display-4 font-weight-bold">Quality memory quilts and designer quilts</h1>
-        <p class="lead">Hand made by Dorothy in Atlanta, Ga.</p>
-      </div>
-    </div>
+
+    <!--Info-->
+    <article class="container">
+      <section class="row">
+        <!--<div class="col-1"></div>-->
+        <div class="col-xl-4">
+          <img src="./resources/Web_Photos/WooSepiaBed.jpg" width="400px" height="300px" alt="Wizard of Oz quilt on a bed">
+        </div>
+        <div class="col-1"></div>
+        <div class="col-xl-6">
+          <br/>
+          <h1>Are you looking for a custom made quilt?</h1>
+          <br/>
+          <p>If you are looking for a custom quilt, memory quilt (signature quilt or photo quilt), or something to do
+             with that drawer full of T-shirts you just can't part with, you have come to the right place.</p>
+        </div>
+      </section>
+      <section class="row"></section>
+      <section class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <p>All of my quilts are made with top quality, 100% cotton materials, machine pieced by me with all the care and skill I can bring
+             to each project. The most important thing to me is for you to be happy with your finished product. All quilts, except for small projects,
+             are Long Arm Quilted by my close friend Glenna Ann Bowmaster of Fine Feathers Quilting. She works her magic, then I do the finish work.
+             (All binding sewn down by hand.)</p>
+        </div>
+      </section>
+
+      <section class="row"></section>
+
+      <section class="row">
+        <div class="col-1"></div>
+        <div class="col-xl-4">
+          <br/>
+          <p>Please check out my <a href="photos.html">Photos page</a> and <a href="contact.html">contact me</a> if you have been looking for
+             someone to make that special quilt for you.</p>
+             <br/>
+          <p>I also make tote bags, handbags, wall hangings and gift items.</p>
+        </div>
+          <div class="col-xl-4">
+            <img src="./resources/Web_Photos/WoO Sepia.jpg" width="400px" height="300px" alt="Wizard of Oz sepia quilt">
+          </div>
+        </div>
+      </section>
+    </article>
 
     <!--Footer-->
     <footer>
-      <div class="container">
+      <div class="container-fluid">
         <nav class="navbar navbar-fixed-bottom navbar-expand-lg navbar-dark">
           <p class="navbar-text">&copy 2019 Not In Kansas Quilts<br/>Site design by <a href="http://www.23carnies.com">23carnies</a></p>
 
