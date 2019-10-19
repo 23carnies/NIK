@@ -128,3 +128,7 @@ footer ul {
     display: none;
   }
 }
+
+#lightSlider {
+	max-width: 1000px;
+}

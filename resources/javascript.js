@@ -1,18 +1,16 @@
-$(function(){
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#lightSlider").lightSlider();
+  });
 
-	createSticky($("#header"));
-
-});
-
-function createSticky(sticky) {
-
-	if (typeof sticky !== "undefined") {
-
-		var	pos = sticky.offset().top,
-				win = $(window);
-
-		win.on("scroll", function() {
-    		win.scrollTop() >= pos ? sticky.addClass("fixed") : sticky.removeClass("fixed");
-		});
-	}
-}
+  $(document).ready(function() {
+    var slider = $("#lightSlider").lightSlider();
+    slider.goToSlide(3);
+    slider.goToPrevSlide();
+    slider.goToNextSlide();
+    slider.getCurrentSlideCount();
+    slider.refresh();
+    slider.play();
+    slider.pause();
+  });
+</script>
