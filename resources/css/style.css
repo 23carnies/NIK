@@ -52,10 +52,10 @@ header, footer {
   z-index: 10;
   height: 300px;
   margin: 0 auto;
-  background-image: url("../Web_Photos/WoO color.jpg");
+  background-image: url("../webPics/WooColor3Box.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   filter: grayscale(100%);
   animation-name: greyToColor;
   animation-duration: 8s;
@@ -72,7 +72,7 @@ header, footer {
   100% {filter: grayscale(0%); -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%);}
 }
 
-/* Photos Page */
+/* Photos Pages */
 #quiltCarousel {
   margin: 0 auto;
   width: 70%;
@@ -83,6 +83,9 @@ header, footer {
   background-color: #223428;
 }
 
+.roadRace {
+	image-orientation: 90deg;
+}
 /* Testimonials Page */
 .testContainer {
   padding-top: 20px;
