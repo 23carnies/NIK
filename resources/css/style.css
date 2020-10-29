@@ -1,3 +1,10 @@
+
+body {
+  background-color: #656866;
+  min-height: calc(100vh - 151px);
+}
+html {
+}
 /* Header */
 
 #header {
@@ -79,12 +86,15 @@ header, footer {
   height: auto;
 }
 
-#carouselBackground {
-  background-color: #223428;
-}
 
 .roadRace {
 	image-orientation: 90deg;
+}
+
+.carousel-item > img {
+  width: auto;
+  height: 500px;
+  max-height: 500px;
 }
 /* Testimonials Page */
 .testContainer {
@@ -134,4 +144,15 @@ footer ul {
 
 #lightSlider {
 	max-width: 1000px;
+}
+
+@media screen and (min-width: 1090px) {
+  #first {
+    margin-left: auto;
+  }
+}
+
+.test-image {
+  max-width: 300px;
+  margin: 15px auto;
 }
